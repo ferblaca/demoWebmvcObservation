@@ -24,7 +24,7 @@ public class WebMvcController {
         return "hello!";
     }
 
-    @PreAuthorize("hasRole('ROLE1')")
+    @PreAuthorize("hasRole('ROLE_1')")
     @GetMapping(path = "/accessOK")
     public String accessOK() {
         return "hello!";
