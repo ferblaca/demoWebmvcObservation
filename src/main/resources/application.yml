@@ -14,9 +14,9 @@ management:
     export:
       prometheus:
         enabled: true
-spring:
-  security:
-    user:
-      name: user
-      password: password
-      roles: ROLE1,ROLE2   
+#spring:
+#  security:
+#    user:
+#      name: user
+#      password: password
+#      roles: ROLE1,ROLE2   
